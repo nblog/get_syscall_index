@@ -133,6 +133,8 @@ bool parse_function_syscall_index(void * fn, uint32_t & u32Idx, bool b64bit = is
 
 bool get_syscall_tables(std::unordered_map<std::string, uint32_t> & syscall_tables) {
 
+	syscall_tables.clear();
+	
 #ifndef _WIN64
 	PVOID wow64FsReDirectory = NULL;
 	BOOL isWow64FsReDriectory = isWow64();
