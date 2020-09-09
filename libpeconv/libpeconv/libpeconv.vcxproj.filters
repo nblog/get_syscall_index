@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\peconv">
+      <UniqueIdentifier>{22e72949-9b02-4799-b11d-c9561d6ea842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\buffer_util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\caves.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\delayed_imports_loader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exported_func.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exports_lookup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exports_mapper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_base.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fix_dot_net_ep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fix_imports.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\function_resolver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imports_loader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imports_uneraser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\load_config_util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe_dumper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe_hdrs_helper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe_loader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe_mode_detector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe_raw_to_virtual.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pe_virtual_to_raw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\peb_lookup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\relocate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remote_pe_reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resource_parser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resource_util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\fix_dot_net_ep.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ntddk.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\buffer_util.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\caves.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\delayed_imports_loader.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exported_func.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exports_lookup.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\exports_mapper.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\file_util.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\find_base.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\fix_imports.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\function_resolver.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\hooks.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\imports_loader.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\imports_uneraser.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\load_config_defs.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\load_config_util.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_dumper.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_hdrs_helper.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_loader.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_mode_detector.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_raw_to_virtual.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\pe_virtual_to_raw.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\peb_lookup.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\relocate.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\remote_pe_reader.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\resource_parser.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\resource_util.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\peconv\util.h">
+      <Filter>include\peconv</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
